@@ -43,3 +43,7 @@ h3{
 #totalMonthlyCosts{
     float: right;
 }
+
+.alert {
+    background-color: red;
+}

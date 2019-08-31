@@ -33,6 +33,9 @@ function totalMonthlyCalc(){
     let $el = $('#totalMonthlyCosts');
     $el.empty();
     $el.append('$' + monthlyFees)
+    if (monthlyFees>20000){
+        $('#totalMonthlyCosts').toggleClass('alert')
+    }
 }
 
 function removeEmployee(employee){
