@@ -1,0 +1,45 @@
+header{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+#employeesTable{
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-top: 10px;
+        border: 1px solid black;
+        border-collapse:collapse;
+}
+
+th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: light;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: lighter;
+}
+
+h3{
+    text-align: right;
+}
+
+#totalMonthlyCosts{
+    float: right;
+}

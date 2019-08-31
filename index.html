@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+    <title>Employee Salary Calculator</title>
+</head>
+<header>
+        Salary Calculator
+</header>
+<body>
+    <h2>Add Employee</h2>
+    <input type="text" placeholder="First Name" id="firstName"/>
+    <input type="text" placeholder= "Last Name" id="lastName"/>
+    <input type="text" placeholder= "ID Number" id="employeeId"/>
+    <input type="text" placeholder= "Title" id="jobTitle"/>
+    <input type="text" placeholder="Annual Salary" id="annualSalary"/>
+    <button id="submitButton">Submit</button>
+    <table id="employeesTable" width="100%">
+        <thead>
+            <h2>Employees</h2>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+                <th width="80px"></th>
+            </tr>
+            </thead>
+            <tbody id="body">
+                </tbody>
+    </table>
+<h3>Total Monthly Costs:</h3><div id="totalMonthlyCosts">$0</div>
+</body>
+</html>
