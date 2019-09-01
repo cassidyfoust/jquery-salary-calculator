@@ -44,13 +44,18 @@ function removeSalary(value){
     removedSalary = removedSalary/12;
     monthlyFees = parseInt(monthlyFees) - parseInt(removedSalary);
     totalMonthlyCalc();
+    if (monthlyFees < 20000) {
+        $('#totalMonthlyCosts').removeClass('alert')
+    }
+    else {
+    }
 }
 
 function removeEmployee(employee){
     $(employee).parent().parent().remove();
 
-    $("tr:even").css("background-color", "#ff9191");
-    $("tr:odd").css("background-color", "#ffcfcf");
+    $("tr:even").css("background-color", "#A39171");
+    $("tr:odd").css("background-color", "#ABC4AB");
 }
 
 
