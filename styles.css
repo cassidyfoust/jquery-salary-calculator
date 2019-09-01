@@ -2,7 +2,8 @@ header{
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
     font-size: 45px;
-    background-color: lightgrey;
+    background-color: #727D71;
+    color: #DCC9B6;
     padding: 30px;
 }
 
@@ -13,11 +14,16 @@ header{
         border-collapse:collapse;
 }
 
+#tfoot{
+    background-color:  #ABC4AB;
+}
+
 th {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #727D71;
+    color: #DCC9B6;
 }
 
 td{
@@ -29,19 +35,27 @@ td{
 h2{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: light;
+    display: flex;
+    justify-content: flex-start;
+    color: #6D4C3D;
 }
 
 body{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: lighter;
+    margin: 20px;
+    background-color: #DCC9B6;
 }
 
 h3{
     text-align: right;
+    color: #6D4C3D;
 }
 
 #totalMonthlyCosts{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    color: #6D4C3D;
 }
 
 .alert {
